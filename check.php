@@ -1,5 +1,5 @@
 <?php
-include "phpnet.php";
+include "netphp.php";
 $input=file_get_contents("subdomains.txt");
 $subdomains=explode("\n", $input);
 $subdomains=array_filter($subdomains);
